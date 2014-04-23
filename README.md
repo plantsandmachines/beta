@@ -4,7 +4,7 @@
 
 # beta
 
-This is the code of the second robotic aquaponic ecosystem we build. It is bigger in size and has a lot more features than early_alpha. Beta sports an Atlas Scientific PH sensor, multiple DHT22 and DS28J60 temperature sensors, 2 solenoid valves, led lighting and much, much more.
+This is the code of the second robotic aquaponic ecosystem we build. It is bigger in size and has a lot more features than early_alpha. Beta sports an Atlas Scientific PH sensor, multiple DHT22 and DS18S20 temperature sensors, 2 solenoid valves, LED lighting on a height adjustable light rack, a humidifier, lots of fans and comes with a seperate biofilter. 
 
 An aquaponic system is esentially the combination of a regular hydroculture with an aquaculture. The closed loop water-cycle is used for ammonium and ammonia dissolvement and transportation. Colonies of micro-organisms convert ammonium and ammonia to nitrate. Plants use up the nitrate and thus rid the water of all substances being toxic for aquatic animals. There is no need for external nutrient supplication.
 
@@ -38,17 +38,21 @@ Through the use of technology we are able to modify environmental conditions ins
 * inside the node folder ~$ npm install
 * depending on your system:
 
-    ~$ sudo node server.js
-    ~$ sudo nodejs server.js
+```
+~$ sudo node server.js
+~$ sudo nodejs server.js
+```
 
 ###### avr / arduino
 
 * install gvr-gcc, avr-libc and avrdude
 * change lib dirs and avr chip in the makefile
 * inside the arduino folder:
-    
-    ~$ make
-    ~$ sudo make upload
+  
+```  
+~$ make
+~$ sudo make upload
+```
 
 *bug: compile & upload code with arduino IDE, there seems to be a problem with software serial libraries when using the given makefile.*
   
@@ -75,7 +79,7 @@ Through the use of technology we are able to modify environmental conditions ins
 
 This project originated from [our local hackspace maschinenraum](http://www.maschinenraum.tk) in late 2012. It then became my master thesis in architecture at the [bauhaus university](http://www.uni-weimar.de/de/universitaet/start/). During the time of research about urban food production systems Bastian and I build 3 prototypes.
 
-This repository documents our very first, very basic food replication system.
+This repository documents our second food replication system.
 We are currently fixing documentation, cleaning up code and comments on the other prototypes and will release them as soon as we're done.
 
 ---
