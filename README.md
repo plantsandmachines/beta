@@ -12,9 +12,11 @@ Through the use of technology we are able to modify environmental conditions ins
 
 ---
 
-##### tldr: [sensors] + [actuators] -> [arduinos] -usb-serial-JSON-> [raspberryPi] -node.js-> (mongodb) && (webinterface(bootstrap; flot graphs)) 
+##### tldr: 
 
-##### [webclient] (webinterface) -faye-JSON-> [raspberryPi] (node.js) -usb-serial-JSON-> [arduinos] -> [actuators]
+##### [sensors] + [actuators] -> [arduinos] -usb-serial-JSON-> [raspberryPi] -node.js-> (mongodb) && (webinterface(bootstrap; flot graphs)) 
+
+##### [webclient(webinterface)] -faye-JSON-> [raspberryPi(node.js)] -usb-serial-JSON-> [arduinos] -> [actuators]
 
 * avr timer interrupts, keep track of time
 * build JSON on avr
@@ -35,18 +37,20 @@ Through the use of technology we are able to modify environmental conditions ins
 * install mongodb, node.js and npm on your machine
 * inside the node folder ~$ npm install
 * depending on your system:
-  * ~$ sudo node server.js
-  * ~$ sudo nodejs server.js
+
+    ~$ sudo node server.js
+    ~$ sudo nodejs server.js
 
 ###### avr / arduino
 
 * install gvr-gcc, avr-libc and avrdude
 * change lib dirs and avr chip in the makefile
 * inside the arduino folder:
-  * ~$ make
-  * ~$ sudo make upload
+    
+    ~$ make
+    ~$ sudo make upload
 
-/* bug: compile & upload code with arduino IDE, there seems to be a problem with software serial libraries when using the given makefile. */
+*bug: compile & upload code with arduino IDE, there seems to be a problem with software serial libraries when using the given makefile.*
   
 ###### webinterface
 
