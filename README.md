@@ -35,7 +35,12 @@ Through the use of technology we are able to modify environmental conditions ins
 ###### node.js
 
 * install mongodb, node.js and npm on your machine
-* inside the node folder ~$ npm install
+* inside the node folder
+
+```
+~$ npm install
+```
+
 * depending on your system:
 
 ```
