@@ -99,3 +99,8 @@ Chat with us:
 
 * [IRC](irc://irc.freenode.org/plantsandmachines)
 
+---
+
+![plants & machines logo](https://avatars3.githubusercontent.com/u/5636292?s=65 "plants & machines logo")
+
+
