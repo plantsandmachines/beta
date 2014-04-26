@@ -10,6 +10,8 @@ An aquaponic system is esentially the combination of a regular hydroculture with
 
 Through the use of technology we are able to modify environmental conditions inside this artificial ecosystem to become the perfect spa for plants and aquatic animals. The goal is to have a sensing robot that by the help of machinelearning is able to optimize the cultivation of food in regard to energy consumption, yield and taste.
 
+![beta](https://raw.githubusercontent.com/plantsandmachines/beta/master/img/beta.jpg "beta")
+
 ---
 
 ##### tldr: 
