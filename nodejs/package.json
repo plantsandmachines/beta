@@ -1,20 +1,34 @@
 {
-  "author": "mrv",
-  "name": "beta prototyp",
-  "description": "plants and machines",
-  "version": "0.0.0",
+  "name": "beta_prototype",
+  "version": "0.0.1",
+  "description": "plants & machines",
+  "main": "server.js",
+  "dependencies": {
+    "faye": "~0.8.8",
+    "mongoose": "~3.5.4",
+    "serialport2": "~0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:plantsandmachines/beta.git"
   },
-  "scripts": {
-    "test": "nodejs server.js"
+  "keywords": [
+    "aquaponic",
+    "ecosystem",
+    "monitoring",
+    "interface",
+    "raspberryPi",
+    "arduino"
+  ],
+  "author": "Martin Breuer",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/plantsandmachines/beta/issues"
   },
-  "dependencies":{
-  },
-  "devDependencies": {},
-  "optionalDependencies": {},
-  "engines": {
-    "node": "*"
-  }
+  "homepage": "http://www.plantsandmachines.de"
 }
