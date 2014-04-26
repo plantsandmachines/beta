@@ -1,0 +1,486 @@
+#myCarousel
+{
+  width: 77%;
+  margin: 0px auto;
+}
+
+.carousel-control
+{
+  position: absolute;
+  top: 40px;
+}
+
+a:hover
+{
+  text-decoration: none;
+}
+
+p
+{
+  padding-bottom: 20px;
+  width: 98%;
+  margin-top: -10%;
+}
+
+.nomargin
+{
+  margin-top:0px;
+}
+
+.modal-body p
+{
+  width: 75%;
+  padding-bottom: 30px;
+  margin-top: 0px;
+}
+
+h2
+{
+  padding-top: 45px;
+}
+
+h3
+{
+  padding-top: 5%;
+  display: inline;
+}
+
+
+
+h5
+{
+  padding-bottom: 0px;
+  font-size: 13px;
+}
+
+hr
+{
+    
+    height: 1px;
+    color: #CAD4CC;
+    background-color: #CAD4CC;
+    position: relative;
+    bottom: 25px;
+    margin-bottom: 0px;
+    opacity: 0.7;    
+    
+}
+
+i 
+{
+  padding-right: 0px;
+  color: #333
+}
+
+.navbar i
+{
+  color: white;
+}
+
+#date-range-field i
+{
+  float: left;
+}
+
+.container-fluid
+{
+  max-width: 77%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tab-pane 
+{
+  overflow: hidden;
+}
+
+#plant_progress, #plant2_progress, #plant3_progress
+{
+  background: #CAD4CC;
+  height: 5px;
+  margin-bottom: 3px;
+  margin-top: 8px;
+} 
+
+#light_progress, #flood_progress, #aeration_progress, #water_progress
+{
+  float: left;
+  width: 98%;
+  background: #CAD4CC;
+  height: 10px;
+
+}
+
+.ui-progressbar .ui-progressbar-value 
+{ 
+  background: #A6E126; 
+}
+
+.graph_wrapper
+{
+  overflow: hidden;
+}
+
+.light_wrapper
+{
+  overflow: visible;
+}
+
+#graph_temp, #graph_humid, #graph_ph, #graph_lightInt
+{
+  width: 100%;
+  height: 350px;
+}
+
+.tempTop_value, .tempBtm_value, .humidBtm_value, .humidTop_value, .light_value, .lastFlood_value, .ph_value, .temp_value
+{
+  line-height:1;
+  font-size: 100px;
+}
+
+.label
+{
+  padding-left: 30px;
+}
+
+.benchmark
+{
+  position: relative;
+  top: -17px;
+}
+
+.fitness
+{
+  position: absolute;
+  display: inline;
+}
+
+.vote
+{
+  position: absolute;
+  padding-left: 5px;
+  width: 20px;
+}
+
+.vote .tooltip
+{
+  top: -22px;
+  left: -124px;
+  width: 111px;
+  display: block;
+}
+
+#graph_machine_led,
+#graph_machine_fan,
+#graph_machine_fanBtm,
+#graph_machine_bubbler,
+#graph_machine_humidifier,
+#graph_machine_solin,
+#graph_machine_solout,
+#graph_machine_motor,
+#graph_machine_camera,
+#graph_machine_heater,
+#graph_machine_pump
+{
+  width: 100%;
+  height: 215px;
+}
+
+#graph_plant1_benchmark, #graph_plant2_benchmark, #graph_fish1_benchmark, #graph_fish2_benchmark
+{ 
+  width: 100%;
+  height: 245px;
+}
+
+.ledState,
+.fanState,
+.fanBtmState,
+.bubblerState,
+.humidifierState,
+.solinState,
+.soloutState,
+.motorState,
+.cameraState,
+.heaterState,
+.pumpState,
+#fitness1_value, #fitness2_value
+{
+  line-height:0.8;
+  font-size: 62px;
+  overflow: visible;
+}
+
+.fitsymbol
+{
+  float: right;
+  margin-top: -55px;
+  margin-right: 12px;
+  color: #CAD4CC;
+}
+
+.tempTop_value, .humidTop_value, .light_value, .ph_value, .temp_value, .lightInt_value
+{
+  line-height:1;
+  font-size: 70px;
+  overflow: visible;
+}
+
+.bubblerdur_value,
+.leddur_value,
+.lastFlood_value,
+.pumpdur_value,
+.heaterdur_value
+{
+  font-size: 30px;
+}
+
+.cycle_toggle
+{
+  font-size:22px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.symbol, .refsymbol
+{
+  line-height: 1.5;
+  color: #CAD4CC;
+  font-size: 15px;
+  vertical-align: top;
+  overflow: visible;
+}
+
+.refsymbol
+{
+  font-size: 10px;
+  color: #CC2F0A;
+  line-height: 34px;
+}
+
+.reference
+{
+  padding-right: 100%;
+  letter-spacing: 1px;
+  color: #CC2F0A;
+  position: relative;
+  top: 18px;
+}
+
+.reference_inline
+{
+  color: #CC2F0A;
+  vertical-align: top;
+  float: right;
+  padding-right: 8px;
+}
+
+.leddur_value_small,
+.fanBtmdur_value,
+.bubblerdur_value_small,
+.fandur_value,
+.refTemp_value, 
+.refHumid_value,
+.refLightInt_value,
+.pumpdur_value_small,
+.heaterdur_value,
+.refPh_value
+{
+  font-size: 30px;
+  color: #CC2F0A;
+  position: relative;
+  top: 25px;
+}
+
+.refFl_value,
+.refLi_value,
+.refBu_value,
+.refCy_value,
+.refAi_value
+{
+  font-size: 30px;
+  color: #CC2F0A;
+  float: right;
+  padding-right: 8px;
+}
+
+.leddur_value_small,
+.bubblerdur_value_small,
+.fandur_value
+{
+  top: 25px;
+}
+
+#temperature, #humidity, #flood, #aeration, #lightcycle, #lightintensity, #ph
+{
+  padding-top: 3%;
+}
+
+/* ###### time range bar ######  */
+
+#date-range-field 
+{
+ cursor:pointer;
+ border:none;
+ position: relative;
+}
+
+#date-range-field i
+{
+  margin-right: 10px;
+  margin-top: 3.5px;
+}
+
+
+#date-range-field span 
+{
+  color: #999999;
+  font-size: 10px;
+  float:right;
+}
+
+
+
+.time-range
+{
+  float: left;
+  padding-right: 10px;
+}
+
+
+      
+#datepicker-calendar 
+{
+        padding: 5px;
+        padding-top: 10px;
+        padding-left: 5.5%;
+        
+        overflow: hidden;
+        width: 100%;
+        height: 160px;
+        display:none;
+        background: #121212;
+        border-bottom: 5px solid #a6e126;
+
+}
+ 
+.datepicker
+{
+  border:none;
+}
+
+.live-button
+{
+  cursor: pointer;
+}
+
+.thumbnail
+{
+  margin-bottom: 3px;
+}
+
+.thumbnail img
+{
+  height: 109px;
+  width: 100%;
+}
+
+.plantText, .machineText, .fishText
+{
+  padding-top:12px;
+}
+
+.add-plant, .add-fish, .add-machine
+{
+  cursor: pointer;
+}
+
+.add-plant, .add-machine, .add-fish
+{
+  left: 2px;
+  bottom: 20px;
+  position: relative;
+}
+
+.expand
+{
+  margin-left: 3px;
+  margin-top: -22px;
+}
+
+
+.add_something
+{
+  color: #333;
+}
+
+.add_something:hover
+{
+  text-decoration: none;
+  color: #333;
+}
+
+.pull-left
+{
+  left: -40px;
+}
+
+.plant-status img, .machine-status img, .fish-status img
+{
+  cursor: pointer;
+} 
+
+.plant-status p, .machine-status p, .fish-status p
+{
+    padding:0px;
+    font-size: 12px;
+    line-height: 14px;
+    display: inline;
+    
+}
+
+.plant-status .thumbnail, .machine-status .thumbnail, .fish-status .thumbnail
+{
+    border: 1px solid #CAD4CC;
+    border-radius: 0px;
+    
+}
+
+#plant_progress, #plant2_progress, #fish_progress, #fish2_progress
+{
+  position: relative;
+  overflow: visible;
+  top: 5px;
+  width: 96%;
+  height: 4px;
+  margin: 0 auto;    
+}
+
+.formkey
+{
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+
+.pull-up
+{
+  position: relative;
+  top: -8px;
+}
+
+.disable_debug
+{
+  display: inline;
+  float: right;
+}
+
+.dropdown-menu
+{
+  min-width: 125px;
+  margin: 8px 0 0;
+  border-radius: 0;
+  top: 73%;
+}
+
+/* Fixing bootstrap grid layout item margin problem */
+
+.row-fluid ul.thumbnails li.span2:nth-child(6n + 7) { margin-left : 0px; }

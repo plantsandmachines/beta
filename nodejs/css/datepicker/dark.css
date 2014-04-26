@@ -1,0 +1,19 @@
+.datepickerContainer {
+  background-color: #121212;
+  top: 10px;
+  left: 10px;
+}
+
+div.datepicker a {
+  color: #eeeeee;
+}
+div.datepicker th {
+  color: #999999;
+}
+td.datepickerNotInMonth a {
+  color: #666666;
+}
+td.datepickerDisabled a,
+td.datepickerDisabled.datepickerNotInMonth a{
+  color: #333333;
+}

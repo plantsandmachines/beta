@@ -1,0 +1,20 @@
+{
+  "author": "mrv",
+  "name": "beta prototyp",
+  "description": "plants and machines",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:plantsandmachines/beta.git"
+  },
+  "scripts": {
+    "test": "nodejs server.js"
+  },
+  "dependencies":{
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
